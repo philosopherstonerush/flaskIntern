@@ -19,7 +19,8 @@ pip install pipenv
 ```
 2) Open a terminal window in the project directory.
 3) Run `pipenv install`
-4) Run flask server
+4) After dependencies gets installed, run `pipenv shell`
+5) Run flask server
 ```
 flask --app main run
 ```
