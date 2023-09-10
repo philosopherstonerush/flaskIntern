@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+    - "5001:5000"
+    volumes:
+    - .:/opt
+    links:
+    - mongo
+  mongo:
+    image: mongo:latest
+    hostname: test_users
+    volumes:
+      - mongo-data:/data/db
+      - mongo-configdb:/data/configdb
+volumes:
+  mongo-data:
+  mongo-configdb:

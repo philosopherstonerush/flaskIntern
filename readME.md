@@ -28,3 +28,5 @@ flask --app main run
 # Notes
 
 - SQLAlchemy doesn't support NoSQL databases. Used pyMongo instead.
+- His series is amazing! 
+https://dev.to/paurakhsharma/flask-rest-api-part-2-better-structure-with-blueprint-and-flask-restful-2n93
